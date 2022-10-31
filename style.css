@@ -125,6 +125,10 @@ button{
   align-items: center;
 }
 
+.task * {
+  vertical-align: middle;
+}
+
 .task__checkbox {
   margin: 0 10px;
 }
@@ -170,6 +174,6 @@ button{
   width: 224px;
 }
 
-.task.edit-mode .task_label {
+.task.edit-mode .task__label {
   display: none;
 }
